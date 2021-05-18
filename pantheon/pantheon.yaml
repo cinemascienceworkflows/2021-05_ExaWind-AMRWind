@@ -1,0 +1,19 @@
+pantheon:
+    pantheon_version: 1.2
+    pantheon_state: research
+
+project:
+    project_name: E4S
+    project_website: https://github.com/Exawind/amr-wind
+
+workflow:
+    workflow_name: ExaWind-AMRWind
+    workflow_desc: ExaWind-AMRWind (in-situ) workflow
+    workflow_cinema-db: pantheon.cdb
+    workflow_app: amrwind
+    workflow_in-situ: in-situ
+    workflow_post-processing: post
+
+contact:
+    contact_name: Ethan Stam
+    contact_email: stam@lanl.gov
