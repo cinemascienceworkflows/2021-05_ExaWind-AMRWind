@@ -1,17 +1,17 @@
-![research](https://pantheonscience.github.io/states/research.png)
+![release](https://pantheonscience.github.io/states/release.png)
 
 # ExaWind AMR-Wind workflow with in-situ visualization using Ascent
 
 <p align="center">
     <img width="750" src="doc/workflow.png"/>
 </p>
-<p align="center">Diagram of the workflow in this example.</p>
+<p align="center">Diagram of workflow in this example.</p>
 
 A repository for examples using `ExaWind-AMRWind` and `Ascent` for creation of `Cinema` databases.
 
 Instructions for building Exawind-AMRWind with Ascent can be found [here](https://github.com/Alpine-DAV/ascent/wiki/Building-AMRWind). These instructions were adapted into custom Spack package files.
 
-The embedded example run is derived from a regression test, and can be found in the Alpine-DAV AMRWind source [here](https://github.com/Alpine-DAV/amr-wind/tree/ascent/test/test_files/abl_godunov).
+This workflow will pull cached builds from a [E4S](https://e4s-project.github.io/) repository. The embedded example run is derived from a regression test, and can be found in the Alpine-DAV AMRWind source [here](https://github.com/Alpine-DAV/amr-wind/tree/ascent/test/test_files/abl_godunov).
 
 <p align="center">
 <table>
