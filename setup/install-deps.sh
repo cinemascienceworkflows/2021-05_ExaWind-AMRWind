@@ -103,8 +103,7 @@ if $USE_SPACK_CACHE; then
 
     # set up spack to use E4S cache
     spack mirror add e4s_pantheon https://cache.e4s.io
-    wget https://oaciss.uoregon.edu/e4s/e4s.pub
-    spack gpg trust e4s.pub
+    spack buildcache keys -it
     module load patchelf
 
     time spack -e . install
